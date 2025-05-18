@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  overflow-x: hidden; /* Щоб уникнути горизонтальної прокрутки, якщо фіксовані елементи виходять за межі */
+}
+
+.top-bar {
+  height: 100px; /* Задай бажану висоту смуги */
+  background-color: green; /* Колір фону смуги */
+  width: 100%; /* На всю ширину */
+  display: flex; /* Для гнучкого вирівнювання тексту всередині */
+  justify-content: center; /* Вирівнювання тексту по центру горизонталі */
+  align-items: center; /* Вирівнювання тексту по центру вертикалі */
+  /* Додаткові стилі для фіксованої позиції (за потреби) */
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
+  /* z-index: 1000; */
+}
+header {
+  /* Стилі для заголовка, щоб врахувати бокові смуги */
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h1{
+text-align: center;
+font-family:'Open Sans', sans-serif;
+}
+main p{
+  font-family:'Open Sans', sans-serif; 
+  font-size: 18px;
+  line-height: 1.8;
+  color: #222;
+  font-weight: 600;
+}
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+ {
+
+}
+.image {
+  text-align: center;
+  border-radius: 15px;
+  /* border: #222 saddlebrown solid; */
+}
+p {
+  text-align: center;
+}
